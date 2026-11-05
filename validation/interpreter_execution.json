@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "scope": "Non-JIT vs delivered JIT examples; same algorithm, not independent physics",
+  "elapsed_s": 0.11767387390136719,
+  "source_sha256": "a57f653e598feca9e9a2bbc31efe44e0ef17ea84005dccb1b5611acd63743d99",
+  "checks": [
+    {
+      "rq": "RQ1",
+      "passed": true,
+      "max_state_error": 1.3877787807814457e-17,
+      "max_command_error": 1.4210854715202004e-14,
+      "max_metric_error": 0.0
+    },
+    {
+      "rq": "RQ2",
+      "passed": true,
+      "max_state_error": 1.3877787807814457e-17,
+      "max_command_error": 0.0,
+      "max_metric_error": 0.0
+    }
+  ]
+}

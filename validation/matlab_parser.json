@@ -1,0 +1,126 @@
+{
+  "passed": true,
+  "scope": "Tree-sitter syntax only. Not MATLAB execution or UI validation.",
+  "files": [
+    {
+      "file": "matlab/PP_BASLAT.m",
+      "sha256": "95e3543bf0ef636b3b0dbf407545954bb3b3c608d30b9ca645c23549d6f53814",
+      "parse_passed": true
+    },
+    {
+      "file": "matlab/launch_rq1.m",
+      "sha256": "66b62416f112cffe2bd223cf90171e2890ed407c43284ff0d5b710d9fc9c13e1",
+      "parse_passed": true
+    },
+    {
+      "file": "matlab/launch_rq2.m",
+      "sha256": "fdeaec98361c1e052d7ee23f20e048b76a5420c1a26e50b3e094cf6afd154f43",
+      "parse_passed": true
+    },
+    {
+      "file": "matlab/pp_actuator.m",
+      "sha256": "2daa7504d9b809b0b7859e9e8e13f63a3aaedd2cef1a65da2ec3e8d26d46a11e",
+      "parse_passed": true
+    },
+    {
+      "file": "matlab/pp_app.m",
+      "sha256": "5c64c31deb05b412922d8e079fa9258daabeec3b17cd4f5d54cdf083c0603d6c",
+      "parse_passed": true
+    },
+    {
+      "file": "matlab/pp_drag.m",
+      "sha256": "d3ffc1d68878e1038374be5ce679f34bc6abb97492fb718308f9337e73062139",
+      "parse_passed": true
+    },
+    {
+      "file": "matlab/pp_hash_selftest.m",
+      "sha256": "bffc3175bc1e2b513c1c24d9b49d0541aef7e32886c85359b486ac8a5ab83362",
+      "parse_passed": true
+    },
+    {
+      "file": "matlab/pp_load_spec.m",
+      "sha256": "f3079cd6a1b99b0a28e56cdc34f5024a04112827c15ca7c93a74f69580d353d9",
+      "parse_passed": true
+    },
+    {
+      "file": "matlab/pp_make_forcing.m",
+      "sha256": "019354c6c9985ea5f5f5484eb534049598e90239cdb15ac15a26e8f229cce2c0",
+      "parse_passed": true
+    },
+    {
+      "file": "matlab/pp_mission_target.m",
+      "sha256": "ae55df05ab2d050bc0b325cdec8eaa8aebe808625421cd2dabfd0c4245762ffd",
+      "parse_passed": true
+    },
+    {
+      "file": "matlab/pp_numeric_spec.m",
+      "sha256": "6632b59f42ebe12199d80e8c5ce816fc0e04d9999a2cba9b4a63fc1d4034c48e",
+      "parse_passed": true
+    },
+    {
+      "file": "matlab/pp_phi.m",
+      "sha256": "a9c9f40a31219cf0204531b2b11791fb6ef15cae5c6d53e17412fe383422ee84",
+      "parse_passed": true
+    },
+    {
+      "file": "matlab/pp_plant.m",
+      "sha256": "6761791a19f6092eb349cd033f7100feac75f461939f89ba80e5717c7796834d",
+      "parse_passed": true
+    },
+    {
+      "file": "matlab/pp_predict.m",
+      "sha256": "b76f7b77607e793ad69b4009db66c503095a15a7dc69c502fffab43c17946d82",
+      "parse_passed": true
+    },
+    {
+      "file": "matlab/pp_require_validation.m",
+      "sha256": "b6878a7127f400770373070bb7f606e19f51da20843c6d1caf23078b84e8dcb5",
+      "parse_passed": true
+    },
+    {
+      "file": "matlab/pp_sha256.m",
+      "sha256": "7fe0fa73cf11fce5ad9f4334a6bce812fe9af8b01ca5f09cc39cdba1a6f36aed",
+      "parse_passed": true
+    },
+    {
+      "file": "matlab/pp_simulate.m",
+      "sha256": "65412c8c5d86286c24c7e25a24e5be2554b6c578d27d5ade500c147875192307",
+      "parse_passed": true
+    },
+    {
+      "file": "matlab/pp_terminal_plan.m",
+      "sha256": "d1b06724c836b304932bd51c95ef9df7809f3a4c6f5fc91743bf55d3682595f8",
+      "parse_passed": true
+    },
+    {
+      "file": "matlab/pp_type_selftest.m",
+      "sha256": "cbd5f3260b80ed0fa4cea82a375d8569fba70b10cf796999ea29ce35e8ca5592",
+      "parse_passed": true
+    },
+    {
+      "file": "matlab/pp_update.m",
+      "sha256": "e05416809021db44c683b591afbcbbc3469429ed5dbe6867bbbe5bb6a0a8661e",
+      "parse_passed": true
+    },
+    {
+      "file": "matlab/pp_validate.m",
+      "sha256": "dd094ef66e7f5327b7c6258d33f984f929d7a7987ffe16d97ffdc8e9dfdb30e4",
+      "parse_passed": true
+    },
+    {
+      "file": "matlab/pp_write_json.m",
+      "sha256": "a1cbe80953c2470de99c28529e8e79760e643249c7dd8ac8baaa1cf74e99f997",
+      "parse_passed": true
+    },
+    {
+      "file": "matlab/verify_pp.m",
+      "sha256": "be87f6abe940516f7573c7b5b87a70e146ae10d51fcd78f7c30e8d1230706949",
+      "parse_passed": true
+    },
+    {
+      "file": "start_PP.m",
+      "sha256": "96e6fc30401ad0bb1257a6d00b05668a6a17fd2bc86a6436149978eb447d4b69",
+      "parse_passed": true
+    }
+  ]
+}

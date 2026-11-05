@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "patch": "PP-1.0 patch 1",
+  "scope": "Native Linux SHA helpers executed and compared with Python hashlib. MATLAB/Windows execution NOT performed.",
+  "fixed_vectors_and_path_cases": [
+    {
+      "vector": "empty",
+      "command": "sha256sum < \"$PP_SHA256_INPUT\"",
+      "passed": true
+    },
+    {
+      "vector": "empty",
+      "command": "shasum -a 256 < \"$PP_SHA256_INPUT\"",
+      "passed": true
+    },
+    {
+      "vector": "abc",
+      "command": "sha256sum < \"$PP_SHA256_INPUT\"",
+      "passed": true
+    },
+    {
+      "vector": "abc",
+      "command": "shasum -a 256 < \"$PP_SHA256_INPUT\"",
+      "passed": true
+    },
+    {
+      "vector": "binary",
+      "command": "sha256sum < \"$PP_SHA256_INPUT\"",
+      "passed": true
+    },
+    {
+      "vector": "binary",
+      "command": "shasum -a 256 < \"$PP_SHA256_INPUT\"",
+      "passed": true
+    },
+    {
+      "vector": "special $() quote'\n",
+      "command": "sha256sum < \"$PP_SHA256_INPUT\"",
+      "passed": true
+    },
+    {
+      "vector": "special $() quote'\n",
+      "command": "shasum -a 256 < \"$PP_SHA256_INPUT\"",
+      "passed": true
+    }
+  ],
+  "linux_native_helpers_checked_package_files": 49,
+  "numerical_sources_configs_and_fixtures_unchanged": true,
+  "changed_existing_files": [
+    "README.md",
+    "docs/KARARLAR.md",
+    "matlab/pp_app.m",
+    "matlab/pp_sha256.m",
+    "matlab/verify_pp.m",
+    "validation/matlab_parser.json"
+  ],
+  "new_matlab_file": "matlab/pp_hash_selftest.m",
+  "matlab_parser_files": 22,
+  "windows_powershell": "documented Microsoft API; not executed in this environment"
+}

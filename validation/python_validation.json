@@ -1,0 +1,156 @@
+{
+  "schema": "PP-1.0",
+  "passed": true,
+  "checks": [
+    {
+      "name": "two_body_mean_invariant",
+      "passed": true,
+      "detail": {
+        "a": 6678137.0,
+        "m": 35.6
+      }
+    },
+    {
+      "name": "analytic_thrust_mass_solution",
+      "passed": true,
+      "detail": {
+        "a_error_m": -2.1420419216156006e-08
+      }
+    },
+    {
+      "name": "DOP853_prescribed_force",
+      "passed": true,
+      "detail": {
+        "step_s": [
+          60,
+          30,
+          15
+        ],
+        "a_errors_m": [
+          1.862645149230957e-09,
+          3.725290298461914e-09,
+          9.313225746154785e-10
+        ]
+      }
+    },
+    {
+      "name": "Van_Loan_covariance",
+      "passed": true,
+      "detail": {
+        "phi_max_abs": 1.1102230246251565e-16,
+        "Q_max_abs": 1.7763568394002505e-15,
+        "Q_min_eigenvalue": -1.7296553347447757e-20
+      }
+    },
+    {
+      "name": "Jacobian_finite_difference",
+      "passed": true,
+      "detail": {
+        "a_error": 4.1036579743010453e-16,
+        "eta_error": 9.508886733566868e-14
+      }
+    },
+    {
+      "name": "Joseph_conditioning",
+      "passed": true,
+      "detail": {
+        "max_abs": 7.105427357601002e-15
+      }
+    },
+    {
+      "name": "actuator_boundary_0",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "name": "actuator_boundary_1",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "name": "actuator_boundary_2",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "name": "actuator_boundary_3",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "name": "actuator_boundary_4",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "name": "actuator_boundary_5",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "name": "actuator_boundary_6",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "name": "forcing_repeat",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "name": "forcing_prefix",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "name": "RQ_main_command_prefix",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "name": "RQ_target_use",
+      "passed": true,
+      "detail": {
+        "RQ1_error_m": -6.021555612795055,
+        "RQ2_error_m": -912.7585044251755
+      }
+    },
+    {
+      "name": "no_future_truth_leak",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "name": "mass_energy_account",
+      "passed": true,
+      "detail": {
+        "mass_error_kg": 3.281538452429289e-14
+      }
+    },
+    {
+      "name": "reject_invalid_19",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "name": "reject_invalid_20",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "name": "reject_invalid_21",
+      "passed": true,
+      "detail": {}
+    }
+  ],
+  "scope": "Python numerical/unit checks only; not MATLAB parity or physical validation",
+  "elapsed_s": 12.219209909439087,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "source_sha256": {
+    "python/pp_core.py": "a57f653e598feca9e9a2bbc31efe44e0ef17ea84005dccb1b5611acd63743d99",
+    "python/validate_python.py": "75ea0dee0c8381ec5c7e52db5b91ca0cb67159132ad27f052e89acb85104b1fe",
+    "config/spec.json": "877e1e449e0121b77c8bb44a8de6cfb4f2711331ef24ca8e25a60d9cadb37066",
+    "config/missions.json": "d21017a93a3f87feafe3f6844ce4eec4624c5d477a564958f7600a4ae1534321"
+  }
+}

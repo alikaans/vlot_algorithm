@@ -1,0 +1,4 @@
+{
+  "RQ1": {"target_offset_m": 0.0, "label": "Başlangıç yörüngesini koruma"},
+  "RQ2": {"target_offset_m": 950.0, "label": "Yörünge koruma ve terminal yükseltme"}
+}

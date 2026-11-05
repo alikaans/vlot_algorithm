@@ -1,0 +1,141 @@
+{
+  "passed": true,
+  "scope": "Python replay only; MATLAB parity remains pending",
+  "checks": [
+    {
+      "fixture": "quick",
+      "rq": "RQ1",
+      "policy": "periodic",
+      "passed": true,
+      "max_abs_state_command_metric": [
+        9.769962616701378e-15,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "fixture": "quick",
+      "rq": "RQ1",
+      "policy": "hysteresis",
+      "passed": true,
+      "max_abs_state_command_metric": [
+        1.4210854715202004e-14,
+        7.105427357601002e-15,
+        3.552713678800501e-15
+      ]
+    },
+    {
+      "fixture": "quick",
+      "rq": "RQ1",
+      "policy": "predictive_hysteresis",
+      "passed": true,
+      "max_abs_state_command_metric": [
+        1.4210854715202004e-14,
+        7.105427357601002e-15,
+        3.552713678800501e-15
+      ]
+    },
+    {
+      "fixture": "quick",
+      "rq": "RQ2",
+      "policy": "periodic",
+      "passed": true,
+      "max_abs_state_command_metric": [
+        8.881784197001252e-15,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "fixture": "quick",
+      "rq": "RQ2",
+      "policy": "hysteresis",
+      "passed": true,
+      "max_abs_state_command_metric": [
+        1.4210854715202004e-14,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "fixture": "quick",
+      "rq": "RQ2",
+      "policy": "predictive_hysteresis",
+      "passed": true,
+      "max_abs_state_command_metric": [
+        1.4210854715202004e-14,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "fixture": "full",
+      "rq": "RQ1",
+      "policy": "periodic",
+      "passed": true,
+      "max_abs_state_command_metric": [
+        1.4210854715202004e-14,
+        7.105427357601002e-15,
+        3.469446951953614e-18
+      ]
+    },
+    {
+      "fixture": "full",
+      "rq": "RQ1",
+      "policy": "hysteresis",
+      "passed": true,
+      "max_abs_state_command_metric": [
+        1.4210854715202004e-14,
+        7.105427357601002e-15,
+        0.0
+      ]
+    },
+    {
+      "fixture": "full",
+      "rq": "RQ1",
+      "policy": "predictive_hysteresis",
+      "passed": true,
+      "max_abs_state_command_metric": [
+        1.4210854715202004e-14,
+        1.4210854715202004e-14,
+        0.0
+      ]
+    },
+    {
+      "fixture": "full",
+      "rq": "RQ2",
+      "policy": "periodic",
+      "passed": true,
+      "max_abs_state_command_metric": [
+        1.4210854715202004e-14,
+        7.105427357601002e-15,
+        0.0
+      ]
+    },
+    {
+      "fixture": "full",
+      "rq": "RQ2",
+      "policy": "hysteresis",
+      "passed": true,
+      "max_abs_state_command_metric": [
+        1.4210854715202004e-14,
+        7.105427357601002e-15,
+        0.0
+      ]
+    },
+    {
+      "fixture": "full",
+      "rq": "RQ2",
+      "policy": "predictive_hysteresis",
+      "passed": true,
+      "max_abs_state_command_metric": [
+        1.4210854715202004e-14,
+        1.0658141036401503e-14,
+        0.0
+      ]
+    }
+  ],
+  "python": "3.15.2 (tags/v3.15.2:5e58eaa, Oct 25 2026, 17:27:03) [MSC v.1951 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "source_sha256": "a57f653e598feca9e9a2bbc31efe44e0ef17ea84005dccb1b5611acd63743d99"
+}

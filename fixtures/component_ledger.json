@@ -1,0 +1,5 @@
+{
+  "actuator_examples": 640,
+  "math_probes": 9,
+  "scope": "Cross-language examples; independent mathematical checks are in validate_python.py"
+}

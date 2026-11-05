@@ -1,0 +1,14 @@
+{
+  "schema": "PP-1.0",
+  "python_numerical_checks": "passed_22",
+  "python_fixture_replay": "passed_12",
+  "interpreter_check": "passed_2",
+  "matlab_execution": "not_run",
+  "matlab_gui": "not_run",
+  "development_pilot": "not_run",
+  "heldout_campaign": "not_run",
+  "physical_calibration": "not_done",
+  "package_patch": "numeric-type-normalization-2",
+  "user_matlab_feedback_previous_patch": "6 quick cases passed; first full case failed due to rounded trace",
+  "current_patch_full_matlab_parity": "pending"
+}
