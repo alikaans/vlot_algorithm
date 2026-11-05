@@ -127,7 +127,7 @@ Density is **not pressure**; its unit is kg/m³. 8×10⁻¹¹ is included in the
 
 The seed initializes a pseudorandom-number generator; it does not determine whether physical parameter values are correct. Python uses four named PCG64 streams: constant atmospheric bias b, OU atmosphere u(t), white measurement noise and colored measurement noise. They are separated by `SeedSequence([seed, stream_id])`. Extending the duration preserves the earlier atmosphere/measurement prefix. A fixed seed, version and configuration reproduce the same inputs; select another development seed to obtain a different realization.
 
-The atmospheric multiplier exp(b+u) is positive and lognormal. b and u are not density themselves. Their distributions and correlations determine the synthetic atmosphere's statistical properties. To inspect the realization associated with a seed, examine its saved arrays and summaries. `MATEMATIK.md` explains the process and why the multiplier does not have mean 1. MATLAB twister/randn and Python PCG64 need not generate identical arrays from the same seed number; compare saved inputs, not seed labels.
+The atmospheric multiplier exp(b+u) is positive and lognormal. b and u are not density themselves. Their distributions and correlations determine the synthetic atmosphere's statistical properties. To inspect the realization associated with a seed, examine its saved arrays and summaries. `MATH.md` explains the process and why the multiplier does not have mean 1. MATLAB twister/randn and Python PCG64 need not generate identical arrays from the same seed number; compare saved inputs, not seed labels.
 
 ## 6. Execution order and outputs
 
